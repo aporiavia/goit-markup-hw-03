@@ -208,8 +208,9 @@ border: none;
   }
 
   .team-content {
-  padding: 32px 16px;  
-  }
+    padding: 32px 0;
+    
+   }
 
   .title-team-name,
   .text-team-place {
@@ -259,6 +260,12 @@ border: none;
   flex-wrap: wrap;
 }
 
+.list-portfolio-descript {
+  row-gap: 48px; 
+  margin-bottom: 48px;
+  margin-bottom: 0;
+}
+
 .portfolio-content {
 border-bottom: 1px solid #e7e9fc;
 border-left: 1px solid #e7e9fc;
@@ -275,7 +282,7 @@ padding: 32px 16px;
 }
 .logo footer-logo{
   display: inline-block;
-  gap: 16px;
+  margin-bottom: 16px;
 }
 .text-footer{
   color: #f4f4fd;
