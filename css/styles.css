@@ -111,8 +111,6 @@
   
   .section-button {
     background: #2e2f42;
-    /* padding-top: 120px;
-    padding-bottom: 120px; */
     padding: 188px 0;
     }
     
@@ -259,13 +257,8 @@ border: none;
   display: flex;
   align-items: center;
   gap: 24px;
+  row-gap: 48px;
   flex-wrap: wrap;
-}
-
-.list-portfolio-descript {
-  row-gap: 48px; 
-  margin-bottom: 48px;
-  margin-bottom: 0;
 }
 
 .portfolio-content {
@@ -282,7 +275,7 @@ padding: 32px 16px;
   padding-bottom: 100px;
     background-color: #2e2f42;
 }
-.logo footer-logo{
+.logo .footer-logo{
   display: inline-block;
   margin-bottom: 16px;
 }
